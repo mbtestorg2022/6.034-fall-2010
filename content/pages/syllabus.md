@@ -62,10 +62,45 @@ Your grade in 6.034 will be calculated as the average of six scores:
 
 All of these scores will be on a 1–5 scale, averaged together like a GPA. The 1–5 scale is not based on a class average—we do not calculate class averages—but rather on what the instructors consider the scores to mean:
 
-| 5 | Thorough understanding of the topic |
-| 4 | Acceptable understanding of the topic |
-| 3 | Some understanding of the topic |
-| 2 or 1 | Poor understanding of the topic 
+{{< tableopen >}}
+{{< tropen >}}
+{{< tdopen >}}
+5
+{{< tdclose >}}
+{{< tdopen >}}
+Thorough understanding of the topic
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+4
+{{< tdclose >}}
+{{< tdopen >}}
+Acceptable understanding of the topic
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+3
+{{< tdclose >}}
+{{< tdopen >}}
+Some understanding of the topic
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+2 or 1
+{{< tdclose >}}
+{{< tdopen >}}
+Poor understanding of the topic
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 You will get an A if your average score is above about 4.5, a B if it is between about 3.5 and about 4.5, and so on. If you are near one of the transition points, your tutorial and recitation instructors can decide whether to round your grade up or down based on your class participation.
 
