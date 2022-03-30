@@ -10,28 +10,311 @@ Winston, Patrick Henry. _Artificial Intelligence_. 3rd ed. Addison-Wesley, 1992.
 
 Additional resources, where relevant, are listed with the respective [Lecture Videos]({{< baseurl >}}/pages/lecture-videos) under the "Related Resources" tab.
 
-| LEC # | TOPICS | READINGS |
-| --- | --- | --- |
-| 1 | Introduction and scope | &nbsp; |
-| 2 | Reasoning: goal trees and problem solving | Application: Symbolic Integration, p. 61. |
-| 3 | Reasoning: goal trees and rule-based expert systems | Chapter 3, pp. 53–60. |
-| 4 | Search: depth-first, hill climbing, beam | Chapter 4 |
-| 5 | Search: optimal, branch and bound, A\* | Chapter 5 |
-| 6 | Search: games, minimax, and alpha-beta | Chapter 6 |
-| 7 | Constraints: interpreting line drawings | Chapter 12 |
-| 8 | Constraints: search, domain reduction | &nbsp; |
-| 9 | Constraints: visual object recognition | Chapter 26 |
-| 10 | Introduction to learning, nearest neighbors | Chapter 19 |
-| 11 | Learning: identification trees, disorder | Chapter 21 |
-| 12 | Learning: neural nets, back propagation | [Neural net notes (PDF)]({{< baseurl >}}/resources/mit6_034f10_netmath) |
-| 13 | Learning: genetic algorithms | Chapter 25 |
-| 14 | Learning: sparse spaces, phonology | Yip, Kenneth, and Gerald Jay Sussman. ![This resource may not render correctly in a screen reader.](/images/inacessible.gif)["Sparse Representations for Fast, One-Shot Learning." (PDF)](http://courses.csail.mit.edu/6.803/pdf/yip.pdf) |
-| 15 | Learning: near misses, felicity conditions | Chapter 16 |
-| 16 | Learning: support vector machines | [Support vector machine slides (PDF)]({{< baseurl >}}/resources/mit6_034f10_svm) |
-| 17 | Learning: boosting |  {{< br >}}{{< br >}} [Boosting notes (PDF)]({{< baseurl >}}/resources/mit6_034f10_boosting) (Courtesy of Patrick Winston and Luis Ortiz. Used with permission.) {{< br >}}{{< br >}} Schapire, Robert. ![This resource may not render correctly in a screen reader.](/images/inacessible.gif)["The Boosting Approach to Machine Learning: An Overview." MSRI Workshop on Nonlinear Estimation and Classification, 2002. (PDF)](http://courses.csail.mit.edu/6.034f/ai3/msri.pdf) {{< br >}}{{< br >}}  |
-| 18 | Representations: classes, trajectories, transitions | Chapter 9 |
-| 19 | Architectures: GPS, SOAR, Subsumption, Society of Mind |  {{< br >}}{{< br >}} Lehman, Jill, John Laird, and Paul Rosenbloom. ![This resource may not render correctly in a screen reader.](/images/inacessible.gif)["A Gentle Introduction to Soar, An Architecture for Human Cognition: 2006 Update." (PDF)](http://courses.csail.mit.edu/6.034f/ai3/SOAR.pdf) {{< br >}}{{< br >}} Brooks, Rodney. "Intelligence Without Representation." _Artificial Intelligence_ 47 (1991): 139–59. {{< br >}}{{< br >}} Winston, Patrick Henry. ![This resource may not render correctly in a screen reader.](/images/inacessible.gif)["S3, Taking Machine Intelligence to the Next, Much Higher Level." (PDF)](http://courses.csail.mit.edu/6.034f/ai3/Genesis.pdf) {{< br >}}{{< br >}}  |
-| 20 | The AI business | &nbsp; |
-| 21 | Probabilistic inference I | &nbsp; |
-| 22 | Probabilistic inference II | [Probabilistic inference notes (PDF)]({{< baseurl >}}/resources/mit6_034f10_bayes) |
-| 23 | Model merging, cross-modal coupling, course summary | Coen, Michael. ![This resource may not render correctly in a screen reader.](/images/inacessible.gif)["Self-Supervised Acquisition of Vowels in American English." (PDF - 4.8MB)](http://people.csail.mit.edu/mhcoen/Coen-AAAI06.pdf) _AAAI Proceedings of the 21st National Conference on Artificial Intelligence_ 2 (2006).
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+LEC #
+{{< thclose >}}
+{{< thopen >}}
+TOPICS
+{{< thclose >}}
+{{< thopen >}}
+READINGS
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+1
+{{< tdclose >}}
+{{< tdopen >}}
+Introduction and scope
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+2
+{{< tdclose >}}
+{{< tdopen >}}
+Reasoning: goal trees and problem solving
+{{< tdclose >}}
+{{< tdopen >}}
+Application: Symbolic Integration, p. 61.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+3
+{{< tdclose >}}
+{{< tdopen >}}
+Reasoning: goal trees and rule-based expert systems
+{{< tdclose >}}
+{{< tdopen >}}
+Chapter 3, pp. 53–60.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+4
+{{< tdclose >}}
+{{< tdopen >}}
+Search: depth-first, hill climbing, beam
+{{< tdclose >}}
+{{< tdopen >}}
+Chapter 4
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+5
+{{< tdclose >}}
+{{< tdopen >}}
+Search: optimal, branch and bound, A\*
+{{< tdclose >}}
+{{< tdopen >}}
+Chapter 5
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+6
+{{< tdclose >}}
+{{< tdopen >}}
+Search: games, minimax, and alpha-beta
+{{< tdclose >}}
+{{< tdopen >}}
+Chapter 6
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+7
+{{< tdclose >}}
+{{< tdopen >}}
+Constraints: interpreting line drawings
+{{< tdclose >}}
+{{< tdopen >}}
+Chapter 12
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+8
+{{< tdclose >}}
+{{< tdopen >}}
+Constraints: search, domain reduction
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+9
+{{< tdclose >}}
+{{< tdopen >}}
+Constraints: visual object recognition
+{{< tdclose >}}
+{{< tdopen >}}
+Chapter 26
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+10
+{{< tdclose >}}
+{{< tdopen >}}
+Introduction to learning, nearest neighbors
+{{< tdclose >}}
+{{< tdopen >}}
+Chapter 19
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+11
+{{< tdclose >}}
+{{< tdopen >}}
+Learning: identification trees, disorder
+{{< tdclose >}}
+{{< tdopen >}}
+Chapter 21
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+12
+{{< tdclose >}}
+{{< tdopen >}}
+Learning: neural nets, back propagation
+{{< tdclose >}}
+{{< tdopen >}}
+[Neural net notes (PDF)]({{< baseurl >}}/resources/mit6_034f10_netmath)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+13
+{{< tdclose >}}
+{{< tdopen >}}
+Learning: genetic algorithms
+{{< tdclose >}}
+{{< tdopen >}}
+Chapter 25
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+14
+{{< tdclose >}}
+{{< tdopen >}}
+Learning: sparse spaces, phonology
+{{< tdclose >}}
+{{< tdopen >}}
+Yip, Kenneth, and Gerald Jay Sussman. ["Sparse Representations for Fast, One-Shot Learning." (PDF)](http://courses.csail.mit.edu/6.803/pdf/yip.pdf)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+15
+{{< tdclose >}}
+{{< tdopen >}}
+Learning: near misses, felicity conditions
+{{< tdclose >}}
+{{< tdopen >}}
+Chapter 16
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+16
+{{< tdclose >}}
+{{< tdopen >}}
+Learning: support vector machines
+{{< tdclose >}}
+{{< tdopen >}}
+[Support vector machine slides (PDF)]({{< baseurl >}}/resources/mit6_034f10_svm)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+17
+{{< tdclose >}}
+{{< tdopen >}}
+Learning: boosting
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+[Boosting notes (PDF)]({{< baseurl >}}/resources/mit6_034f10_boosting) (Courtesy of Patrick Winston and Luis Ortiz. Used with permission.)
+
+Schapire, Robert. ["The Boosting Approach to Machine Learning: An Overview." MSRI Workshop on Nonlinear Estimation and Classification, 2002. (PDF)](http://courses.csail.mit.edu/6.034f/ai3/msri.pdf)
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+18
+{{< tdclose >}}
+{{< tdopen >}}
+Representations: classes, trajectories, transitions
+{{< tdclose >}}
+{{< tdopen >}}
+Chapter 9
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+19
+{{< tdclose >}}
+{{< tdopen >}}
+Architectures: GPS, SOAR, Subsumption, Society of Mind
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Lehman, Jill, John Laird, and Paul Rosenbloom. ["A Gentle Introduction to Soar, An Architecture for Human Cognition: 2006 Update." (PDF)](http://courses.csail.mit.edu/6.034f/ai3/SOAR.pdf)
+
+Brooks, Rodney. "Intelligence Without Representation." _Artificial Intelligence_ 47 (1991): 139–59.
+
+Winston, Patrick Henry. ["S3, Taking Machine Intelligence to the Next, Much Higher Level." (PDF)](http://courses.csail.mit.edu/6.034f/ai3/Genesis.pdf)
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+20
+{{< tdclose >}}
+{{< tdopen >}}
+The AI business
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+21
+{{< tdclose >}}
+{{< tdopen >}}
+Probabilistic inference I
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+22
+{{< tdclose >}}
+{{< tdopen >}}
+Probabilistic inference II
+{{< tdclose >}}
+{{< tdopen >}}
+[Probabilistic inference notes (PDF)]({{< baseurl >}}/resources/mit6_034f10_bayes)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+23
+{{< tdclose >}}
+{{< tdopen >}}
+Model merging, cross-modal coupling, course summary
+{{< tdclose >}}
+{{< tdopen >}}
+Coen, Michael. ["Self-Supervised Acquisition of Vowels in American English." (PDF - 4.8MB)](http://people.csail.mit.edu/mhcoen/Coen-AAAI06.pdf) _AAAI Proceedings of the 21st National Conference on Artificial Intelligence_ 2 (2006).
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
