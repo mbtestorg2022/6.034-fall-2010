@@ -4,6 +4,7 @@ description: This resource contains information related to support vector machin
   boosting.
 file: https://ol-ocw-studio-app-qa.s3.amazonaws.com/courses/6-034-artificial-intelligence-fall-2010/5e183eb597b85504f2cd1391eaf92008_MIT6_034F10_tutor05.pdf
 file_type: application/pdf
+parent_uid: 25b4d967-a959-c4ce-cc7d-0545026be8c6
 resourcetype: Document
 title: '6.034 Tutorial 5: Support vector machines, boosting'
 uid: 5e183eb5-97b8-5504-f2cd-1391eaf92008

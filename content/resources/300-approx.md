@@ -7,6 +7,7 @@ image_metadata:
   caption: ''
   credit: ''
   image-alt: ''
+parent_uid: f55530ea-3c45-6eb0-4848-4f3ee8291c38
 resourcetype: Image
 title: enrollment
 uid: bb94a5ee-3b0f-0351-808e-14b34829d67a

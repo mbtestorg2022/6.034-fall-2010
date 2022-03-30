@@ -53,7 +53,7 @@ Curriculum Information
 
 ### Prerequisites
 
-[6.01 _Introduction to Electrical Engineering and Computer Science I_](/courses/6-01sc-introduction-to-electrical-engineering-and-computer-science-i-spring-2011/pages/index.htm)
+[6.01 _Introduction to Electrical Engineering and Computer Science I_](/courses/6-01sc-introduction-to-electrical-engineering-and-computer-science-i-spring-2011)
 
 _6.034 Artificial Intelligence_ is not centered on programming, but most of the homework requires an understanding of programming and working out small programs. The quizzes and final exam do not include questions that require any knowledge of Python programming. Students who can program, but are unfamiliar with Python, will have to spend some time learning this language; students with no programming experience are advised not to take the subject.
 
